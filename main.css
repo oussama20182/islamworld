@@ -1,0 +1,341 @@
+/*
+ Theme Name: eliteCorp
+ Theme Coder: Oussama
+ PSD Designer: Oussama
+ firstcolor:#08526d
+ secondcolor:#ec1c23
+*/
+
+/* Start Upper Bar */
+
+.Upper-bar {
+	background-color: #08526d;
+	color: #FFF;
+	padding: 10px;
+	font-size:25px;
+}
+
+.Upper-bar span {
+	color: #bfc6c9;
+}
+
+.Upper-bar .get-quote {
+	display: inline-block;
+	border: 1px solid 
+	padding: 2px;
+	margin-left: 20px;	
+}
+
+/* End Upper Bar */
+
+/* Start Navbar */
+
+.navbar-brand > span {
+	font-size: 30px;
+
+}
+
+.navbar-brand span:first-child {
+	font-weight: bold;
+	color: #08526d;
+}
+
+.bg-light {
+    background-color: #f8f9fa!important;
+    padding: 0px;
+}
+
+.navbar-brand span:last-child {
+	color: #ec1c23;
+}
+
+.navbar-nav .nav-link {
+	font-size: 16px;
+	margin-left: 30px;
+	color: #08526d;
+}
+
+.navbar-nav .active > .nav-link {
+	color: #ec1c23 !important
+}
+/* End Navbar */
+
+/* Start Slider */
+
+.slider .carousel-inner {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+.slider .carousel-inner h1{
+	position: absolute;
+	color: #DDD;
+	z-index: 3;
+	font-size: 50px;
+	left: 100px;
+	max-width: 800px;
+}
+
+.carousel-inner span:first-child {
+	font-weight: bold;
+	color: #f5f7fd;
+}
+
+.carousel-inner span:last-child {
+	font-weight: bold;
+	color: #f1eaef;
+}
+
+
+.slider .carousel-inner .overlay {
+	position: absolute;
+	width: 1349px;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,.3);
+	z-index: 2;
+
+}
+
+/*End Slider */
+
+/* Start Overview */
+
+.overview {
+	padding: 100px;
+	background-color: #f0f5f7;
+}
+
+.overview h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 30px
+}
+
+.overview p {
+	line-height: 2;
+	font-size: 20px;
+	width: 80%;
+	margin: 0 auto 15px;
+	color: #6a6a6a;
+}
+
+.overview h4 {
+	letter-spacing: 15px;
+	font-weight: normal;
+	color: #8b8a8a;
+	margin-bottom: 40px;
+}
+
+.overview button {
+	background-color: #ed1d24;
+	color: #FFF;
+	padding: 07px  40px;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid #ed1d24;
+	Cursor: pointer;
+}
+
+/* End Overview */
+
+/* Start Featured World */
+
+.featured-world {
+	padding: 100px; 0
+}
+
+.featured-world {
+     background-image:url(../madina.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+ }
+
+.featured-world h2 {
+	text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.featured-world p {
+	line-height: 1.6px;
+	font-size: 20px;
+	margin: 0 auto 15px;
+	color: #6a6a6a;
+}
+
+.featured-world ul li {
+	color: #08526d;
+	border: 4px solid #08526d;
+	padding: 7px 10px;
+	margin-left:10px;
+	margin-bottom: 5px;
+	Cursor: pointer;
+}
+
+.featured-world ul {
+	margin: 40px;
+}
+
+/* End Featured World */
+
+/* Start Registre page  */
+#Login-box {
+	position: relative;
+	margin: 5% auto;
+	height: 500px;
+	width: 1200px;
+	box-shadow: 0 2px 4px (0,0,0,0.6);
+}
+.left-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+}
+.left-box h1 {
+	margin: 30px;
+	font-weight: 300;
+	font-size: 28px;
+	color:#312c2c;
+}
+input[type="text"],
+input[type="password"]
+{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	padding: 4px;
+	width: 220px;
+	height: 32px;
+	border: none;
+	border-bottom:1px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2s ease;
+}
+
+input[type="submit"]
+{
+	margin-bottom: 28px;
+	width: 120px;
+	height: 32px;
+	background: #f44336;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+	background: #ff5722;
+	transition: 0.2s ease;
+}
+
+.right-box {
+	position: absolute;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 300px;
+	height: 400px;
+}
+
+.or {
+	position: absolute;
+	top: 300px;
+	left: 280px;
+	width: 40px;
+	height: 40px;
+	background: #efefef;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px (0,0,0,0.6);
+	line-height: 40px;
+	text-align: center;
+}
+
+.right-box .signinwith
+{
+	display: block;
+	margin-bottom: 40px;
+	font-size: 28px;
+	color: #272626;
+	text-align: center;
+}
+
+.Social {
+	margin-bottom: 20px;
+	width: 220px;
+	height: 36px;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+.facebook 
+{
+	background: #32508e;
+}
+.twitter
+{
+	background: #55acee;
+}
+.gmail
+{
+	background: #dd4b39;
+}
+/* End Registre page */
+/*Start Contact Us */
+.contact-us {
+	padding: 50px 0;
+	background-color: #944848;
+	color: #fff;
+}
+.contact-us p {
+	margin: 0
+}
+.contact-us a {
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 3px 10px 5px;
+    display:inline-block;
+    float:right;
+}
+/*End Contact Us */
+/*Start Copyright */
+.Copyright {
+	padding: 10px;
+}
+.Copyright .icon{
+	display: inline-block;
+}
+.Copyright .icon a{
+	color: #777;
+	display: inline-block;
+	margin-left: 20px;
+}
+.Copyright .icon i{
+	font-size: 25px !important;
+}
+/*End Copyright */
+
+
+
+
+
